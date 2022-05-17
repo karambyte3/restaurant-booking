@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant</title>
+    <link rel='stylesheet' href='public/css/bootstrap-grid.min.css' />
+    <link rel='stylesheet' href='public/css/reset.css' />
+    <link rel='stylesheet' href='public/css/main.css' />
+    <link rel='stylesheet' href='public/css/slick/slick.css' />
+    <link rel='stylesheet' href='public/css/slick/slick-theme.css' />
+
+  </head>
+  <body>
+	<div class="nav-menu">
+		<div class="container menu-container">
+			<div class="logo">
+				<a href="#top" class="smooth-scroll">
+					<img src="public/images/logo.png" alt="logo">
+				</a>
+			</div>
+			<ul class="nav-items">
+				<li class="nav-item"><a href="#dishesSection" class="smooth-scroll">Dishes</a></li>
+				<li class="nav-item"><a href="#quotesSection1" class="smooth-scroll">Quotes</a></li>
+				<li class="nav-item"><a href="#featuresSection" class="smooth-scroll">Features</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="landing-hero" id="top">
+		<img class="parallax" src="public/images/landing-hero.jpg" alt="" style="width: 100vw; height: 100vh; object-fit: cover;">
+		<div class="wrapper"  style="position: absolute;width: 100%;top: 0;">
+			<div class="container">
+				<div class="text-overlay">
+					<div class="heading">
+						<h1>The best restaurant</h1>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#">Book a table</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="dishes-section" id="dishesSection">
+		<div class="container">
+			<h1 class="heading">Our dishes</h1>
+			<div class="slick-slider dishes-slider">
+				<div class="slick-slide">
+					<img src="/public/images/dishes/burger-dish.jpg" alt="Burger dish">
+					<p>Burger</p>
+				</div>
+				<div class="slick-slide">
+					<img src="/public/images/dishes/steak-dish.jpg" alt="Steak dish">
+					<p>Steak</p>
+				</div>
+				<div class="slick-slide">
+					<img src="/public/images/dishes/sushi-dish.jpg" alt="Sushi dish">
+					<p>Sushi</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="quote-section-1" id="quotesSection1">
+		<div class="container">
+			<q>Lorem ipsum and other texts. We are the best restaurant.</q>
+			<p class="author">Paul Tasty, chef</p>
+		</div>
+	</div>
+
+	<div class="features-section align-items-center d-flex" id="featuresSection">
+		<div class="container">
+			<h1 class="heading">Features</h1>
+			<div class="row">
+				<div class="col-6">
+					<div class="icon-with-text">
+						<img src="/public/images/icons/icon-coctail.png" alt="Coctail">
+						<p>200+ Coctails</p>
+					</div>
+					<p class="feature-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-6">
+					<div class="icon-with-text">
+						<img src="/public/images/icons/icon-hamburger.png" alt="Hamburger">
+						<p>Huge Burgers</p>
+					</div>
+					<p class="feature-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="empty-section"></div>
+
+    <script src="public/js/jquery-3.6.0.min.js"></script>
+    <script src="public/js/jquery-ui.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/simpleParallax.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+
+    <script src="public/js/main.js"></script>
+    <script src="public/js/parallax.min.js"></script>
+	<script type="text/javascript" src="public/js/slick.min.js"></script>
+  </body>
+</html>

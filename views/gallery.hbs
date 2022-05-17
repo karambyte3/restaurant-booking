@@ -1,0 +1,18 @@
+{{#each results}}
+    <div class="col-3" style="width: 18rem;">
+        <div class="card m-1">
+            <img src="{{this.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{this.id}} {{this.name}}</h5>
+                <p class="card-text">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Status: <strong>{{this.status}}</strong></li>
+                <li class="list-group-item">Species: <strong>{{this.species}}</strong></li>
+                <li class="list-group-item">Gender: <strong>{{this.gender}}</strong></li>
+                <li class="list-group-item">Origin: <strong>{{this.origin.name}}</strong></li>
+                <li class="list-group-item">Location: <strong>{{this.location.name}}</strong></li>
+            </ul>
+        </div>
+    </div>
+{{/each}}

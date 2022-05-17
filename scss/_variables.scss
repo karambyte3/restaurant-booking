@@ -1,0 +1,28 @@
+// == == == == == == == == VARIABLES == == == == == == == ==
+
+// FONTS
+
+$roboto-black: 'Roboto Black';
+$roboto-bold: 'Roboto Bold';
+$roboto-light: 'Roboto Light';
+$roboto-medium: 'Roboto Medium';
+$roboto-regular: 'Roboto Regular';
+$roboto-thin: 'Roboto Thin';
+$abril-regular: 'Abril';
+
+// gradient variables
+$gradient-hero-top: rgb(0, 0, 0) 0%;
+$gradient-hero-bottom: transparent 100%;
+$gradient-hero-bottom-scrolled: rgb(0, 0, 0) 100%;
+$gradient-hero-bottom-scrolling-up: rgba(0, 0, 0, 0.7) 70%;
+
+// COLORS
+$white: #fff;
+$black: #000;
+$orange-browny: #c19663;
+
+$landing-hero-background-brightness: rgba(0, 0, 0, 0.3);
+$landing-hero-background-image: url('../../public/images/landing-hero.jpg');
+$landing-hero-background: 	linear-gradient($landing-hero-background-brightness,
+							$landing-hero-background-brightness),
+							$landing-hero-background-image;
