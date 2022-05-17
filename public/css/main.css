@@ -463,12 +463,11 @@ body {
   }
 }
 
-.landing-hero {
+.landing-hero .parallax.background-image {
+  width: 100vw;
   height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .landing-hero .wrapper {
@@ -479,6 +478,9 @@ body {
       -ms-flex-align: end;
           align-items: end;
   height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .landing-hero .wrapper .text-overlay {
